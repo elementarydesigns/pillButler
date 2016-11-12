@@ -1,0 +1,8 @@
+AddMedIntent	Add {med} to my {day} schedule
+RemoveMedIntent	Remove {med} from my {day} schedule
+ListAllMedsIntent	Tell me all my meds
+ListDayMedsIntent	Tell me my meds for {day}
+ListDayMedsIntent	Pills for {day}
+ListDayMedsIntent	for {day}
+ListMedsForTodayIntent	Tell me my meds for today
+RemoveAllMedsIntent	Remove all meds from my schedule

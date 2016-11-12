@@ -1,0 +1,56 @@
+{
+  "intents": [
+    {
+      "intent": "AddMedIntent",
+      "slots": [
+              {
+          "name": "day",
+          "type": "LIST_OF_DAYS"
+        },
+        {
+	   "name": "med",
+	   "type": "LIST_OF_MEDS"
+        }
+      ]
+    },
+    {
+      "intent": "RemoveMedIntent",
+      "slots": [
+                    {
+                "name": "day",
+                "type": "LIST_OF_DAYS"
+              },
+              {
+      	   "name": "med",
+      	   "type": "LIST_OF_MEDS"
+              }
+      ]
+    },
+    {
+      "intent": "ListAllMedsIntent"
+    },
+    {
+      "intent": "ListMedsForTodayIntent"
+    },
+    {
+          "intent": "ListDayMedsIntent",
+          "slots": [
+            {
+              "name": "day",
+              "type": "LIST_OF_DAYS"
+            }
+          ]
+          
+    },
+    {
+          "intent": "RemoveAllMedsIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    }
+    
+  ]
+}
